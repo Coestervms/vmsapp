@@ -1,5 +1,5 @@
 <?php 
-
-	echo "Welcome in Heroku application....successfully reached here.";
-
+	echo "Wellcome in Heroku application....";
+	echo "<br>";
+	include('db.php');
 ?>
