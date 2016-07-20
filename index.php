@@ -1,5 +1,5 @@
 <?php 
 
-	echo "Wellcome in Heroku application....";
+	echo "Welcome in Heroku application....you are successfully reach here";
 
 ?>
