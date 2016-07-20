@@ -1,15 +1,12 @@
 <?php
-$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-echo '<pre>';
-print_r($url);
+
+echo $server = 'ec2-54-243-201-3.compute-1.amazonaws.com';
 echo '<br>';
-echo $server = $url["host"];
+echo $username = 'tqqhmqcblceyjg';
 echo '<br>';
-echo $username = $url["user"];
+echo $password = 'HSqhxhN-cHg51uJEHX2_walN0u';
 echo '<br>';
-echo $password = $url["pass"];
-echo '<br>';
-$db = substr($url["path"], 1);
+$db = 'd29p2gdk6a1kti';
 
 $conn = new mysqli($server, $username, $password, $db);
 
